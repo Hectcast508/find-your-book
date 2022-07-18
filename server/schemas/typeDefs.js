@@ -9,12 +9,12 @@ const typeDefs = gql`
     savedBooks: [Book]
   }
   input BookInput {
-    bookId: String!
-    authors: [String]!
-    title: String!
-    description: String!
-    image: String!
-    link: String!
+    bookId: String
+    authors: [String]
+    title: String
+    description: String
+    image: String
+    link: String
   }
   type Book {
     bookId: String
